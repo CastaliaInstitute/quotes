@@ -4,8 +4,12 @@
   "type": "module",
   "scripts": {
     "export:quotes": "node scripts/export-quotes-for-pages.js",
+    "build:search-config": "node scripts/build-search-config.js",
     "build:qotd": "node scripts/build-quote-of-the-day.js",
-    "build": "npm run build:qotd",
+    "build": "npm run build:search-config && npm run build:qotd",
+    "embed": "node scripts/embed-quotes.js",
+    "embed:force": "node scripts/embed-quotes.js --force",
+    "search": "node scripts/search-quotes.js",
     "seed": "node scripts/seed-quotes-to-supabase.js",
     "seed:dry": "node scripts/seed-quotes-to-supabase.js --dry-run",
     "dns": "bash scripts/cf-dns-quotes-github-pages.sh"

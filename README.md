@@ -62,6 +62,31 @@ npm run dns
 
 Then in GitHub: **Settings → Pages → Custom domain** → `quotes.castalia.institute`.
 
+## Topic search (RAG)
+
+Each published quote has a **`search_text`** document (quote, passage, work title, tags) and a **`embedding`** (`vector(1536)`, OpenAI `text-embedding-3-small`).
+
+```bash
+npm run embed              # embed via edge (OpenRouter → Gemini fallback)
+npm run search -- "stoicism and resilience"
+npm run search -- "libraries paradise" --json
+```
+
+Embeddings use **Gemini `gemini-embedding-001`** at 1536 dimensions on the server (OpenRouter when credits are available). Re-embed after adding quotes: `npm run embed` or `npm run embed:force`.
+
+**SQL RPC:** `search_faculty_quotes(query_embedding, match_count, match_threshold, filter_faculty_id)`
+
+**Edge function:** `POST /functions/v1/search-quotes` with `{ "query": "…", "limit": 8, "faculty_id": "a.plato" }`  
+Deploy from `castalia.institute`:
+
+```bash
+supabase functions deploy search-quotes --project-ref pilmscrodlitdrygabvo
+```
+
+**Web UI:** [quotes.castalia.institute/search.html](https://quotes.castalia.institute/search.html) (requires `search-config.js` from `npm run build:search-config`).
+
+When quotes change, re-run `npm run embed` (trigger clears embedding if `search_text` changes).
+
 ## JSON shape (quote of the day)
 
 ```json

@@ -3,17 +3,20 @@
   "index": 5,
   "total": 12,
   "quote": {
-    "faculty_id": "a.confucius",
-    "quote_text": "Is it not a pleasure, having learned something, to try it out at due intervals?",
-    "passage_label": "Analects, Book I",
-    "book_title": "The Analects of Confucius",
-    "book_author": "Confucius",
+    "faculty_id": "a.joyce",
+    "faculty_name": "James Joyce",
+    "book_id": "abf8ba0b-845b-47a1-9e65-106e81b74660",
+    "quote_text": "A man of genius makes no mistakes. His errors are volitional and are the portals of discovery.",
+    "passage_label": "Ulysses",
+    "cfi": null,
+    "book_title": "Ulysses",
+    "book_author": "James Joyce",
     "source": "gutenberg",
-    "source_id": "3330",
+    "source_id": "4300",
     "tags": [
-      "education",
+      "modernism",
       "famous"
     ],
-    "readest_url": null
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=abf8ba0b-845b-47a1-9e65-106e81b74660"
   }
 }

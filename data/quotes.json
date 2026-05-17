@@ -1,0 +1,206 @@
+[
+  {
+    "faculty_id": "a.borges",
+    "faculty_name": "Jorge Luis Borges",
+    "book_id": "430c6251-d825-4d64-98db-cc4d82d8bcab",
+    "quote_text": "I have always imagined that Paradise will be a kind of library.",
+    "passage_label": "Poem of the Gifts",
+    "cfi": null,
+    "book_title": "Poemas (1923–1964)",
+    "book_author": "Jorge Luis Borges",
+    "source": "gutenberg",
+    "source_id": "55748",
+    "tags": [
+      "libraries",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=430c6251-d825-4d64-98db-cc4d82d8bcab"
+  },
+  {
+    "faculty_id": "a.confucius",
+    "faculty_name": "Confucius",
+    "book_id": "9962b78f-c902-405c-889d-6d53608bf71a",
+    "quote_text": "Is it not a pleasure, having learned something, to try it out at due intervals?",
+    "passage_label": "Analects, Book I",
+    "cfi": null,
+    "book_title": "The Analects of Confucius",
+    "book_author": "Confucius",
+    "source": "gutenberg",
+    "source_id": "3330",
+    "tags": [
+      "education",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=9962b78f-c902-405c-889d-6d53608bf71a"
+  },
+  {
+    "faculty_id": "a.darwin",
+    "faculty_name": "Charles Darwin",
+    "book_id": "266c8e41-92fa-4863-bfb4-03e3f3afc3c4",
+    "quote_text": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.",
+    "passage_label": "On the Origin of Species",
+    "cfi": null,
+    "book_title": "On the Origin of Species",
+    "book_author": "Charles Darwin",
+    "source": "gutenberg",
+    "source_id": "1228",
+    "tags": [
+      "science",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=266c8e41-92fa-4863-bfb4-03e3f3afc3c4"
+  },
+  {
+    "faculty_id": "a.dickinson",
+    "faculty_name": "Dickinson, Emily",
+    "book_id": "ab71f15d-4f6b-4242-b1d4-a1368aa630a2",
+    "quote_text": "Hope is the thing with feathers / That perches in the soul.",
+    "passage_label": "Poem 254",
+    "cfi": null,
+    "book_title": "Poems",
+    "book_author": "Emily Dickinson",
+    "source": "gutenberg",
+    "source_id": "12242",
+    "tags": [
+      "poetry",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=ab71f15d-4f6b-4242-b1d4-a1368aa630a2"
+  },
+  {
+    "faculty_id": "a.einstein",
+    "faculty_name": "Albert Einstein",
+    "book_id": "51de3d99-8719-4238-b96b-9efd7a08ac06",
+    "quote_text": "Imagination is more important than knowledge.",
+    "passage_label": "On Science",
+    "cfi": null,
+    "book_title": "Sidelights on Relativity",
+    "book_author": "Albert Einstein",
+    "source": "gutenberg",
+    "source_id": "5001",
+    "tags": [
+      "science",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=51de3d99-8719-4238-b96b-9efd7a08ac06"
+  },
+  {
+    "faculty_id": "a.joyce",
+    "faculty_name": "James Joyce",
+    "book_id": "abf8ba0b-845b-47a1-9e65-106e81b74660",
+    "quote_text": "A man of genius makes no mistakes. His errors are volitional and are the portals of discovery.",
+    "passage_label": "Ulysses",
+    "cfi": null,
+    "book_title": "Ulysses",
+    "book_author": "James Joyce",
+    "source": "gutenberg",
+    "source_id": "4300",
+    "tags": [
+      "modernism",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=abf8ba0b-845b-47a1-9e65-106e81b74660"
+  },
+  {
+    "faculty_id": "a.marcusaurelius",
+    "faculty_name": "Marcus Aurelius, Emperor of Rome, 121-180",
+    "book_id": "509d7d43-eb31-47f9-b873-cf75e855dfc1",
+    "quote_text": "You have power over your mind—not outside events. Realize this, and you will find strength.",
+    "passage_label": "Meditations, Book II",
+    "cfi": null,
+    "book_title": "Meditations",
+    "book_author": "Marcus Aurelius",
+    "source": "gutenberg",
+    "source_id": "2680",
+    "tags": [
+      "stoicism",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=509d7d43-eb31-47f9-b873-cf75e855dfc1"
+  },
+  {
+    "faculty_id": "a.plato",
+    "faculty_name": "Plato",
+    "book_id": "76643738-aae3-47dc-b617-f28535c57925",
+    "quote_text": "The beginning is the most important part of the work.",
+    "passage_label": "The Republic, Book II",
+    "cfi": null,
+    "book_title": "The Republic",
+    "book_author": "Plato",
+    "source": "gutenberg",
+    "source_id": "1497",
+    "tags": [
+      "philosophy",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=76643738-aae3-47dc-b617-f28535c57925"
+  },
+  {
+    "faculty_id": "a.shakespeare",
+    "faculty_name": "Shakespeare, William",
+    "book_id": "e2cc5991-fbfe-4be2-9b71-6e81ad6c9020",
+    "quote_text": "To be, or not to be, that is the question.",
+    "passage_label": "Hamlet, Act III, Scene i",
+    "cfi": null,
+    "book_title": "Hamlet",
+    "book_author": "William Shakespeare",
+    "source": "gutenberg",
+    "source_id": "1524",
+    "tags": [
+      "famous",
+      "philosophy"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=e2cc5991-fbfe-4be2-9b71-6e81ad6c9020"
+  },
+  {
+    "faculty_id": "a.thoreau",
+    "faculty_name": "Thoreau, Henry David",
+    "book_id": "d331bfad-0bc3-4f1d-a3b5-4bce7500c9af",
+    "quote_text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life.",
+    "passage_label": "Walden; or, Life in the Woods",
+    "cfi": null,
+    "book_title": "Walden",
+    "book_author": "Henry David Thoreau",
+    "source": "gutenberg",
+    "source_id": "205",
+    "tags": [
+      "nature",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=d331bfad-0bc3-4f1d-a3b5-4bce7500c9af"
+  },
+  {
+    "faculty_id": "a.tolstoy",
+    "faculty_name": "Tolstoy, Leo, graf",
+    "book_id": "c4e3571c-3695-4cfc-b734-335f09e6fd71",
+    "quote_text": "All happy families are alike; each unhappy family is unhappy in its own way.",
+    "passage_label": "Anna Karenina, Part I, Chapter 1",
+    "cfi": null,
+    "book_title": "Anna Karenina",
+    "book_author": "Leo Tolstoy",
+    "source": "gutenberg",
+    "source_id": "1399",
+    "tags": [
+      "fiction",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=c4e3571c-3695-4cfc-b734-335f09e6fd71"
+  },
+  {
+    "faculty_id": "a.woolf",
+    "faculty_name": "Virginia Woolf",
+    "book_id": "bca9eea2-d485-43cb-997e-24f917f47f99",
+    "quote_text": "For most of history, Anonymous was a woman.",
+    "passage_label": "A Room of One's Own",
+    "cfi": null,
+    "book_title": "A Room of One's Own",
+    "book_author": "Virginia Woolf",
+    "source": "gutenberg",
+    "source_id": "852",
+    "tags": [
+      "feminism",
+      "famous"
+    ],
+    "readest_url": "https://bibliotech.castalia.institute/read/?book=bca9eea2-d485-43cb-997e-24f917f47f99"
+  }
+]

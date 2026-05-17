@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "export:quotes": "node scripts/export-quotes-for-pages.js",
     "build:qotd": "node scripts/build-quote-of-the-day.js",
     "build": "npm run build:qotd",
     "seed": "node scripts/seed-quotes-to-supabase.js",

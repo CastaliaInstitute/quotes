@@ -35,6 +35,9 @@ async function loadEnv() {
       /* try next */
     }
   }
+  if (!process.env.SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_URL) {
+    process.env.SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  }
 }
 
 async function resolveBookId(supabase, source, sourceId) {

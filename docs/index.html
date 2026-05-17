@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Castalia Quotes</title>
+  <meta name="description" content="Curated quotations by Castalia faculty authors, with Bibliotech EPUB citations." />
+  <style>
+    :root { color-scheme: light dark; --ink: #1a1a1a; --paper: #f7f4ef; --accent: #5c4d3c; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #ece7df; --paper: #141210; --accent: #c9b89a; }
+    }
+    body {
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      background: var(--paper); color: var(--ink);
+      margin: 0; padding: 2.5rem 1.5rem; line-height: 1.5;
+    }
+    main { max-width: 36rem; margin: 0 auto; }
+    h1 { font-weight: 500; font-size: 1.75rem; margin: 0 0 0.5rem; }
+    p.lead { opacity: 0.85; margin: 0 0 2rem; }
+    ul { padding-left: 1.2rem; }
+    a { color: var(--accent); }
+    code { font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Castalia Quotes</h1>
+    <p class="lead">
+      Quotations from faculty authors, linked to texts in
+      <a href="https://bibliotech.castalia.institute/">Bibliotech</a>
+      with EPUB locators for Readest.
+    </p>
+    <ul>
+      <li><a href="/quote-of-the-day.html">Quote of the day</a> (HTML)</li>
+      <li><a href="/quote-of-the-day.json">Quote of the day</a> (JSON)</li>
+    </ul>
+    <p>
+      Data lives in Supabase (<code>faculty_quotes</code>) on the Castalia project.
+      This site is published from
+      <a href="https://github.com/CastaliaInstitute/quotes">CastaliaInstitute/quotes</a>.
+    </p>
+  </main>
+</body>
+</html>

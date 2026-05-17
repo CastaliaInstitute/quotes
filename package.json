@@ -1,0 +1,18 @@
+{
+  "name": "@castalia/quotes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:qotd": "node scripts/build-quote-of-the-day.js",
+    "build": "npm run build:qotd",
+    "seed": "node scripts/seed-quotes-to-supabase.js",
+    "seed:dry": "node scripts/seed-quotes-to-supabase.js --dry-run",
+    "dns": "bash scripts/cf-dns-quotes-github-pages.sh"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

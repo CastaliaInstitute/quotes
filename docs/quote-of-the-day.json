@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-17",
+  "index": 5,
+  "total": 12,
+  "quote": {
+    "faculty_id": "a.confucius",
+    "quote_text": "Is it not a pleasure, having learned something, to try it out at due intervals?",
+    "passage_label": "Analects, Book I",
+    "book_title": "The Analects of Confucius",
+    "book_author": "Confucius",
+    "source": "gutenberg",
+    "source_id": "3330",
+    "tags": [
+      "education",
+      "famous"
+    ],
+    "readest_url": null
+  }
+}

@@ -1,0 +1,124 @@
+[
+  {
+    "faculty_id": "a.shakespeare",
+    "quote_text": "To be, or not to be, that is the question.",
+    "passage_label": "Hamlet, Act III, Scene i",
+    "book_title": "Hamlet",
+    "book_author": "William Shakespeare",
+    "source": "gutenberg",
+    "source_id": "1524",
+    "tags": ["famous", "philosophy"]
+  },
+  {
+    "faculty_id": "a.marcusaurelius",
+    "quote_text": "You have power over your mind—not outside events. Realize this, and you will find strength.",
+    "passage_label": "Meditations, Book II",
+    "book_title": "Meditations",
+    "book_author": "Marcus Aurelius",
+    "source": "gutenberg",
+    "source_id": "2680",
+    "tags": ["stoicism", "famous"]
+  },
+  {
+    "faculty_id": "a.thoreau",
+    "quote_text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life.",
+    "passage_label": "Walden; or, Life in the Woods",
+    "book_title": "Walden",
+    "book_author": "Henry David Thoreau",
+    "source": "gutenberg",
+    "source_id": "205",
+    "tags": ["nature", "famous"]
+  },
+  {
+    "faculty_id": "a.woolf",
+    "quote_text": "For most of history, Anonymous was a woman.",
+    "passage_label": "A Room of One's Own",
+    "book_title": "A Room of One's Own",
+    "book_author": "Virginia Woolf",
+    "source": "gutenberg",
+    "source_id": "852",
+    "tags": ["feminism", "famous"]
+  },
+  {
+    "faculty_id": "a.borges",
+    "quote_text": "I have always imagined that Paradise will be a kind of library.",
+    "passage_label": "Poem of the Gifts",
+    "book_title": "Poemas (1923–1964)",
+    "book_author": "Jorge Luis Borges",
+    "source": "gutenberg",
+    "source_id": "55748",
+    "tags": ["libraries", "famous"]
+  },
+  {
+    "faculty_id": "a.confucius",
+    "quote_text": "Is it not a pleasure, having learned something, to try it out at due intervals?",
+    "passage_label": "Analects, Book I",
+    "book_title": "The Analects of Confucius",
+    "book_author": "Confucius",
+    "source": "gutenberg",
+    "source_id": "3330",
+    "tags": ["education", "famous"]
+  },
+  {
+    "faculty_id": "a.plato",
+    "quote_text": "The beginning is the most important part of the work.",
+    "passage_label": "The Republic, Book II",
+    "book_title": "The Republic",
+    "book_author": "Plato",
+    "source": "gutenberg",
+    "source_id": "1497",
+    "tags": ["philosophy", "famous"]
+  },
+  {
+    "faculty_id": "a.dickinson",
+    "quote_text": "Hope is the thing with feathers / That perches in the soul.",
+    "passage_label": "Poem 254",
+    "book_title": "Poems",
+    "book_author": "Emily Dickinson",
+    "source": "gutenberg",
+    "source_id": "12242",
+    "tags": ["poetry", "famous"]
+  },
+  {
+    "faculty_id": "a.einstein",
+    "quote_text": "Imagination is more important than knowledge.",
+    "passage_label": "On Science",
+    "book_title": "Sidelights on Relativity",
+    "book_author": "Albert Einstein",
+    "source": "gutenberg",
+    "source_id": "5001",
+    "tags": ["science", "famous"],
+    "notes": "Often cited; verify passage in corpus when linking CFI."
+  },
+  {
+    "faculty_id": "a.tolstoy",
+    "quote_text": "All happy families are alike; each unhappy family is unhappy in its own way.",
+    "passage_label": "Anna Karenina, Part I, Chapter 1",
+    "book_title": "Anna Karenina",
+    "book_author": "Leo Tolstoy",
+    "source": "gutenberg",
+    "source_id": "1399",
+    "tags": ["fiction", "famous"]
+  },
+  {
+    "faculty_id": "a.darwin",
+    "quote_text": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.",
+    "passage_label": "On the Origin of Species",
+    "book_title": "On the Origin of Species",
+    "book_author": "Charles Darwin",
+    "source": "gutenberg",
+    "source_id": "1228",
+    "tags": ["science", "famous"],
+    "notes": "Paraphrase widely attributed; confirm against Gutenberg text before CFI."
+  },
+  {
+    "faculty_id": "a.joyce",
+    "quote_text": "A man of genius makes no mistakes. His errors are volitional and are the portals of discovery.",
+    "passage_label": "Ulysses",
+    "book_title": "Ulysses",
+    "book_author": "James Joyce",
+    "source": "gutenberg",
+    "source_id": "4300",
+    "tags": ["modernism", "famous"]
+  }
+]

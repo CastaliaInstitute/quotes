@@ -62,6 +62,22 @@ npm run dns
 
 Then in GitHub: **Settings → Pages → Custom domain** → `quotes.castalia.institute`.
 
+## Bulk import (Quotable dataset)
+
+Download [quotable-io/data](https://github.com/quotable-io/data) (~2,100 quotes with tags), match authors to Castalia `faculty`, and insert as **`draft`** rows:
+
+```bash
+npm run import:quotable -- --dry-run --limit 200   # preview matches
+npm run import:quotable -- --limit 500             # insert drafts
+npm run embed                                      # embeddings for search
+```
+
+Options: `--refresh` (re-download), `--source quotables` (CC0 TSV, if available), `--all-authors` (not used; unmatched are skipped).  
+Author overrides: [`data/author-aliases.json`](data/author-aliases.json).  
+Prepared rows are written to `data/cache/import-quotable-prepared.json`.
+
+Imported quotes have `source = import:quotable` and `notes` asking for verification before setting `status` to `published`.
+
 ## Topic search (RAG)
 
 Each published quote has a **`search_text`** document (quote, passage, work title, tags) and a **`embedding`** (`vector(1536)`, OpenAI `text-embedding-3-small`).

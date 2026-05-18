@@ -31,20 +31,28 @@ function loadEnv() {
   }
 }
 
-async function embedViaEdge(url, serviceKey, force) {
-  const res = await fetch(`${url.replace(/\/$/, '')}/functions/v1/embed-quotes`, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${serviceKey}`,
-      apikey: serviceKey,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ force }),
-  });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error || res.statusText);
-  console.log(`Edge embed: ${data.embedded}/${data.total ?? '?'} quotes`);
-  return data;
+async function embedViaEdge(url, serviceKey, force, batchSize = 80) {
+  let totalEmbedded = 0;
+  let rounds = 0;
+  while (rounds < 50) {
+    const res = await fetch(`${url.replace(/\/$/, '')}/functions/v1/embed-quotes`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${serviceKey}`,
+        apikey: serviceKey,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ force: rounds === 0 && force, limit: batchSize }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || res.statusText);
+    const n = data.embedded ?? 0;
+    totalEmbedded += n;
+    rounds += 1;
+    console.log(`Edge embed batch ${rounds}: ${n} (total ${totalEmbedded})`);
+    if (n === 0 || data.message === 'nothing to embed') break;
+  }
+  return { embedded: totalEmbedded };
 }
 
 async function main() {

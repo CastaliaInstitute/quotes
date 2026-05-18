@@ -12,6 +12,8 @@
     "search": "node scripts/search-quotes.js",
     "seed": "node scripts/seed-quotes-to-supabase.js",
     "seed:dry": "node scripts/seed-quotes-to-supabase.js --dry-run",
+    "import:quotable": "node scripts/import-external-quotes.js --source quotable",
+    "import:quotables": "node scripts/import-external-quotes.js --source quotables",
     "dns": "bash scripts/cf-dns-quotes-github-pages.sh"
   },
   "dependencies": {

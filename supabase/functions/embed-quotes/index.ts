@@ -100,12 +100,14 @@ serve(async (req) => {
   try {
     const body = req.method === 'POST' ? await req.json().catch(() => ({})) : {};
     const force = Boolean(body.force);
+    const limit = Math.min(Math.max(Number(body.limit) || 80, 1), 200);
 
     const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
     let query = supabase
       .from('faculty_quotes')
       .select('id, search_text, quote_text')
-      .eq('status', 'published');
+      .order('created_at', { ascending: true })
+      .limit(limit);
 
     if (!force) query = query.is('embedded_at', null);
 
